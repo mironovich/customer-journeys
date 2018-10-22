@@ -16,7 +16,7 @@ route <- function(name, segment) {
     walk = TRUE, # TRUE для обхода семплинга и склейки по дням
     start.date = "2018-10-01",
     end.date = "2018-10-13",
-    metrics = metrics,
+    metrics = "ga:pageviews",
     # dimensions = "ga:dimension1,ga:dimension8,ga:landingContentGroup2",
     dimensions = "ga:dimension1,ga:dimension8,ga:contentGroup2",
     segment = segment,
